@@ -29,7 +29,14 @@ cd protoforge
 npm install
 ```
 
-3. Ejecuta el servidor de desarrollo:
+3. Crea una cuenta en [liveblocks.io](https://liveblocks.io/dashboard)
+
+- Copia la clave pública [administration](https://liveblocks.io/dashboard/apikeys)
+
+- Crea el fichero `.env.local` y añade tu clave pública a la variable `NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY=key_publica`
+
+
+4. Ejecuta el servidor de desarrollo:
 
 ```bash
 npm run dev
