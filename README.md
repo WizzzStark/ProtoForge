@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ProtoForge 🛠️✨
 
-## Getting Started
+![protoforge](https://github.com/WizzzStark/ProtoForge/assets/85120579/7b8b33ca-fe49-45e2-95b2-c268ea0365f5)
 
-First, run the development server:
+
+**ProtoForge** es una herramienta de diseño colaborativo en línea, construida con la poderosa combinación de [Liveblocks](https://liveblocks.io), [Fabric.js](http://fabricjs.com/) y [Next.js](https://nextjs.org/). 
+
+## Características 🌟
+
+- **Colaboración en tiempo real:** Trabaja con tu equipo en el mismo proyecto simultáneamente, sin retrasos ni conflictos.
+- **Interfaz intuitiva:** Gracias a Fabric.js, disfruta de una interfaz de usuario amigable que te permite arrastrar, soltar y editar componentes de diseño con facilidad.
+- **Potenciado por Next.js:** Experimenta la mejor experiencia de usuario con tiempos de carga rápidos.
+- **Escalable** Con Liveblocks, tu proyecto escala de manera eficiente haciendo sencillo el añadir nuevas funcionalidades.
+
+## Empezando 🚀
+
+Para comenzar a usar **ProtoForge**, sigue estos pasos:
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/WizzzStark/ProtoForge
+```
+
+2. Instala las dependencias:
+
+```bash
+cd protoforge
+npm install
+```
+
+3. Ejecuta el servidor de desarrollo:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visita `http://localhost:3000` en tu navegador para ver la aplicación en acción.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contribuir 🤝
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+¡Las contribuciones son lo que hace que la comunidad de código abierto sea un lugar tan increíble para aprender, inspirar y crear! Cualquier contribución que hagas será **muy apreciada**.
 
-## Learn More
+Si tienes una sugerencia para mejorar esto, por favor, fork el repositorio y crea un pull request. También puedes simplemente abrir un issue con la etiqueta "mejora". ⭐
 
-To learn more about Next.js, take a look at the following resources:
+## Licencia 📄
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Distribuido bajo la licencia MIT. Ver `LICENSE` para más información.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Prueba en vivo 📬
 
-## Deploy on Vercel
+Link de la web: https://proto-forge.vercel.app/
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![protoforge](https://github.com/WizzzStark/ProtoForge/assets/85120579/0ba2afe8-d9da-4f48-afbb-dd376b96e000)
+
+
+¡Espero que ProtoForge impulse tu creatividad y colaboración a nuevos niveles! 🌈🛠️
