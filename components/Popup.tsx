@@ -21,7 +21,7 @@ const Popup = ({ closePopUp }: { closePopUp: any }) => {
                     <span className="text-md text-gray-200 font-sans font-medium">👉 Right Click the canvas to open shortcut menu </span>
                 </div>
                 <div className="flex items-center gap-2 mt-2">
-                    <span className="text-md text-gray-200 font-sans font-medium ml-10">👉 After using "/" or "e" use "Esc" to exit mode. </span>
+                    <span className="text-md text-gray-200 font-sans font-medium ml-10">👉 After using Chat or Reactions use ESC for exit mode. </span>
                 </div>
                 <div className="flex items-center gap-2 mt-2">
                     <span className="text-md text-gray-200 font-sans font-medium ml-10">👉 After selecting an emoji click on the canvas to react! </span>
