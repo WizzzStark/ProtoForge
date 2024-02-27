@@ -3,6 +3,7 @@ import { Work_Sans } from "next/font/google";
 import "./globals.css";
 
 import { Room } from "./Room";
+import { Toaster } from "@/components/ui/sonner"
 
 const workSans = Work_Sans({ 
   subsets: ["latin"],
@@ -29,6 +30,10 @@ export default function RootLayout({
         <Room>
           {children}
         </Room>
+        <Toaster 
+          position="bottom-center"  
+          richColors
+        />
       </body>
     </html>
   );
