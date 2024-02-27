@@ -2,63 +2,61 @@
 
 ![protoforge](https://github.com/WizzzStark/ProtoForge/assets/85120579/0ba2afe8-d9da-4f48-afbb-dd376b96e000)
 
+**ProtoForge** is an online collaborative design tool, built with the powerful combination of [Liveblocks](https://liveblocks.io), [Fabric.js](http://fabricjs.com/), and [Next.js](https://nextjs.org/).
 
-**ProtoForge** es una herramienta de diseño colaborativo en línea, construida con la poderosa combinación de [Liveblocks](https://liveblocks.io), [Fabric.js](http://fabricjs.com/) y [Next.js](https://nextjs.org/). 
+## Features 🌟
 
-## Características 🌟
+- **Real-time collaboration:** Work with your team on the same project simultaneously, without delays or conflicts.
+- **Intuitive interface:** Thanks to Fabric.js, enjoy a user-friendly interface that lets you drag, drop, and edit design components with ease.
+- **Powered by Next.js:** Experience the best user experience with fast loading times.
+- **Scalable** With Liveblocks, your project scales efficiently making it easy to add new functionalities.
 
-- **Colaboración en tiempo real:** Trabaja con tu equipo en el mismo proyecto simultáneamente, sin retrasos ni conflictos.
-- **Interfaz intuitiva:** Gracias a Fabric.js, disfruta de una interfaz de usuario amigable que te permite arrastrar, soltar y editar componentes de diseño con facilidad.
-- **Potenciado por Next.js:** Experimenta la mejor experiencia de usuario con tiempos de carga rápidos.
-- **Escalable** Con Liveblocks, tu proyecto escala de manera eficiente haciendo sencillo el añadir nuevas funcionalidades.
+## Getting Started 🚀
 
-## Empezando 🚀
+To start using **ProtoForge**, follow these steps:
 
-Para comenzar a usar **ProtoForge**, sigue estos pasos:
-
-1. Clona el repositorio:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/WizzzStark/ProtoForge
 ```
 
-2. Instala las dependencias:
+2. Install the dependencies:
 
 ```bash
 cd protoforge
 npm install
 ```
 
-3. Crea una cuenta en [liveblocks.io](https://liveblocks.io/dashboard)
+3. Create an account at [liveblocks.io](https://liveblocks.io/dashboard)
 
-- Copia la clave pública [administration](https://liveblocks.io/dashboard/apikeys)
+- Copy the public key from [administration](https://liveblocks.io/dashboard/apikeys)
 
-- Crea el fichero `.env.local` y añade tu clave pública a la variable `NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY=key_publica`
+- Create the `.env.local` file and add your public key to the variable `NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY=your_public_key`
 
 
-4. Ejecuta el servidor de desarrollo:
+4. Run the development server:
 
 ```bash
 npm run dev
 ```
 
-Visita `http://localhost:3000` en tu navegador para ver la aplicación en acción.
+Visit `http://localhost:3000` in your browser to see the application in action.
 
-## Contribuir 🤝
+## Contributing 🤝
 
-¡Las contribuciones son lo que hace que la comunidad de código abierto sea un lugar tan increíble para aprender, inspirar y crear! Cualquier contribución que hagas será **muy apreciada**.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create! Any contribution you make will be **greatly appreciated**.
 
-Si tienes una sugerencia para mejorar esto, por favor, fork el repositorio y crea un pull request. También puedes simplemente abrir un issue con la etiqueta "mejora". ⭐
+If you have a suggestion to improve this, please fork the repository and create a pull request. You can also simply open an issue with the "enhancement" tag. ⭐
 
-## Licencia 📄
+## License 📄
 
-Distribuido bajo la licencia MIT. Ver `LICENSE` para más información.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-## Prueba en vivo 📬
+## Live Demo 📬
 
-Link de la web: https://proto-forge.vercel.app/
+Web link: https://proto-forge.vercel.app/
 
 ---
 
-
-¡Espero que ProtoForge impulse tu creatividad y colaboración a nuevos niveles! 🌈🛠️
+Hope ProtoForge boosts your creativity and collaboration to new levels! 🌈🛠️
