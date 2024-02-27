@@ -1,6 +1,6 @@
 # ProtoForge 🛠️✨
 
-![protoforge](https://github.com/WizzzStark/ProtoForge/assets/85120579/7b8b33ca-fe49-45e2-95b2-c268ea0365f5)
+![protoforge](https://github.com/WizzzStark/ProtoForge/assets/85120579/0ba2afe8-d9da-4f48-afbb-dd376b96e000)
 
 
 **ProtoForge** es una herramienta de diseño colaborativo en línea, construida con la poderosa combinación de [Liveblocks](https://liveblocks.io), [Fabric.js](http://fabricjs.com/) y [Next.js](https://nextjs.org/). 
@@ -59,8 +59,6 @@ Distribuido bajo la licencia MIT. Ver `LICENSE` para más información.
 Link de la web: https://proto-forge.vercel.app/
 
 ---
-
-![protoforge](https://github.com/WizzzStark/ProtoForge/assets/85120579/0ba2afe8-d9da-4f48-afbb-dd376b96e000)
 
 
 ¡Espero que ProtoForge impulse tu creatividad y colaboración a nuevos niveles! 🌈🛠️
