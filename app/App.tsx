@@ -2,10 +2,9 @@
 
 import { fabric } from "fabric";
 
-import LeftSideBar from "@/components/LeftSideBar";
+
 import Live from "@/components/Live";
 import Navbar from "@/components/Navbar";
-import RightSideBar from "@/components/RightSideBar";
 import { useEffect, useRef, useState } from "react";
 import { handleCanvasMouseDown,handleCanvasMouseMove, handleCanvasMouseUp, handleCanvasObjectModified, handleCanvasObjectScaling, handleCanvasSelectionCreated, handlePathCreated, handleResize, initializeFabric, renderCanvas } from "@/lib/canvas";
 import { ActiveElement, Attributes } from "@/types/type";
@@ -13,6 +12,8 @@ import { useMutation, useRedo, useStorage, useUndo } from "@/liveblocks.config";
 import { defaultNavElement } from "@/constants";
 import { handleDelete, handleKeyDown } from "@/lib/key-events";
 import { handleImageUpload } from "@/lib/shapes";
+import LeftSidebar from "@/components/LeftSidebar";
+import RightSidebar from "@/components/RightSidebar";
 
 export default function Page() {
 	const undo = useUndo();
@@ -222,9 +223,9 @@ export default function Page() {
 			/>
 
 			<section className={`flex h-full flex-row`} style={{ cursor: `url(/cursor.svg), auto`}}>
-				<LeftSideBar allShapes={Array.from(canvasObjects)}/>
+				<LeftSidebar allShapes={Array.from(canvasObjects)}/>
 				<Live canvasRef={canvasRef} undo={undo} redo={redo}/>
-				<RightSideBar 
+				<RightSidebar
 					elementAttributes={elementAttributes} 
 					setElementAttributes={setElementAttributes} 
 					fabricRef={fabricRef} 
