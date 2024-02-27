@@ -14,6 +14,7 @@ import { handleDelete, handleKeyDown } from "@/lib/key-events";
 import { handleImageUpload } from "@/lib/shapes";
 import LeftSidebar from "@/components/LeftSidebar";
 import RightSidebar from "@/components/RightSidebar";
+import Popup from "@/components/Popup";
 
 export default function Page() {
 	const undo = useUndo();
@@ -105,6 +106,12 @@ export default function Page() {
 		}
 
 		selectedShapeRef.current = element?.value as string;
+	}
+
+	// Popup
+	const [isPopupOpen, setIsPopupOpen] = useState<Boolean>(true);
+	const handleClosePopup = () => {
+		setIsPopupOpen(false)
 	}
 
 	
@@ -223,6 +230,7 @@ export default function Page() {
 			/>
 
 			<section className={`flex h-full flex-row`} style={{ cursor: `url(/cursor.svg), auto`}}>
+				{isPopupOpen && <Popup closePopUp={handleClosePopup} />}
 				<LeftSidebar allShapes={Array.from(canvasObjects)}/>
 				<Live canvasRef={canvasRef} undo={undo} redo={redo}/>
 				<RightSidebar
